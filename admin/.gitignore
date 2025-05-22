@@ -32,6 +32,8 @@ Desktop.ini
 
 # Environment
 .env
+.env.production
+.env.development
 .env.local
 .env*.local
 
