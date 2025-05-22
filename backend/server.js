@@ -16,7 +16,16 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(
+  cors({
+    origin: [
+      'https://shopinity-client.vercel.app',
+      'https://shopinity-admin.vercel.app',
+    ],
+    credentials: true,
+  })
+)
+
 
 // api endpoints
 app.use('/api/user',userRouter)
