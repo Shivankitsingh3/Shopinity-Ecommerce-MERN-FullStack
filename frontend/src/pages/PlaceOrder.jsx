@@ -42,6 +42,7 @@ const PlaceOrder = () => {
                 try {
                     
                     const { data } = await axios.post(backendUrl + '/api/order/verifyRazorpay',response,{headers:{token}})
+                    console.log('Using backend URL:', backendUrl);
                     if (data.success) {
                         navigate('/orders')
                         setCartItems({})
