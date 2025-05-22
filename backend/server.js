@@ -19,8 +19,8 @@ app.use(express.json())
 app.use(
   cors({
     origin: [
-      'https://shopinity-client.vercel.app',
-      'https://shopinity-admin.vercel.app',
+      'https://shopinity-frontend.vercel.app',
+      'https://shopinity-ecommerce-mern-full-stack-8oh1u4mfo.vercel.app',
     ],
     credentials: true,
   })
