@@ -20,7 +20,9 @@ app.use(
   cors({
     origin: [
       'https://shopinity-frontend.vercel.app',
-      'https://shopinity-ecommerce-mern-full-stack-8oh1u4mfo.vercel.app',
+      'https://shopinity-admin.vercel.app',
+      'http://localhost:5173',
+      'http://localhost:5174',
     ],
     credentials: true,
   })
