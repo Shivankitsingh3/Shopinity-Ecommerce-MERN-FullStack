@@ -1,6 +1,0 @@
-# Environments
-.env
-.env.*
-
-# Dependencies
-node_modules/
